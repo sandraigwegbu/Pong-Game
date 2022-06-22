@@ -20,7 +20,7 @@ class Ball(Turtle):
 
 	def paddle_bounce(self):
 		self.x_move *= -1
-		self.move_speed *= 0.9  # decrease move_speed to decrease time btwn screen updates (i.e. increase ball speed)
+		self.move_speed *= 0.8  # decrease move_speed to decrease time btwn screen updates (i.e. increase ball speed)
 
 	def reset_position(self):
 		self.goto(0, 0)
